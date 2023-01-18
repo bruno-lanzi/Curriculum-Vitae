@@ -1,0 +1,92 @@
+*{
+    outline: 1px solid rgba(255, 0, 0, 0);
+}
+
+body{
+    background: rgb(198, 254, 198);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(44, 44, 44);
+    
+}
+
+header, section{
+    display: flex;
+    width: 960px;
+    margin: 0 auto;
+    
+}
+.fondo{
+    width:960px ;
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    background-size: cover;
+    background-image: url(verde.jpg ) ;
+    
+    
+}
+footer{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contacto{
+    margin: 5px;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.p{
+    margin: 5px;
+    padding: 5px;
+}
+h1{
+   
+    font-size: 40px ;
+    
+}
+
+.proyecto{
+    list-style-type: '✅' ;
+}
+.estudio{
+    list-style-type: '📚' ;
+}
+
+
+
+
+header{
+    height: 200px;
+    
+    color: black;
+   
+}
+article{
+    width: 60%;
+}
+img{
+    width: 210px;
+    height: 200px;
+    border-radius: 50%;
+    
+}
+
+a, a:link, a:visited{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    border-radius: 25px;
+    background: rgb(44, 2, 255);
+    color: rgb(255, 255, 255);
+}
+.proyectos{
+    font-size: small;
+}
+progress{
+    background-color: rgb(133, 252, 133);
+}
